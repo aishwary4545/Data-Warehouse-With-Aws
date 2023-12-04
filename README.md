@@ -1,10 +1,10 @@
-# Project 3: Song Play Analysis with S3 and Redshift
+# Project 2: Song Play Analysis with S3 and Redshift By Aishwary Patil
 -------------------------
 [![Project passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
 
 ### Introduction
 
-In this project, we try to help one music streaming startup, Sparkify, to move their user base and song database processes on to the cloud. Specifically, I build an ETL pipeline that extracts their data from **AWS S3** (data storage), stages tables on **AWS Redshift** (data warehouse with *columnar storage*), and execute **SQL** statements that create the analytics tables from these staging tables.
+In this project, i tried to help one music streaming startup, Sparkify, to move their user base and song database processes on to the cloud. Specifically, I build an ETL pipeline that extracts their data from **AWS S3** (data storage), stages tables on **AWS Redshift** (data warehouse with *columnar storage*), and execute **SQL** statements that create the analytics tables from these staging tables.
 
 ### Datasets
 Datasets used in this project are provided in two public **S3 buckets**. One bucket contains info about songs and artists, the second bucket has info concerning actions done by users (which song are listening, etc.. ). The objects contained in both buckets 
